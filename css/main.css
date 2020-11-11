@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "PerfectDOS";
+    src: url("https://orientalramen4608.github.io/fsex300.ttf")
+}
+
+* {
+    font-family: "Fixedsys Excelsior 2.01", Consolas, monospace;
+}
+
+h1, h2, h3 {
+    font-size: 24pt;
+    font-weight: normal;
+    color: var(--brightGreen);
+    text-shadow: var(--greenGlow);
+}
+
+p {
+    text-shadow: var(--greenGlow);
+}
+
+pre {
+    text-shadow: var(--greenGlow);
+    color: var(--brightGreen);
+}
+
+body {
+    background: black;
+    color: white;
+    --dullGreen: rgb(0,160,22);
+    --brightGreen: rgb(0,180,0);
+    --greenGlow: 0 0 10px var(--brightGreen), 0 0 30px var(--brightGreen), 0 0 40px var(--brightGreen);
+    --greyColour: rgb(0,180,22);
+}
+
+a {
+    color: var(--brightGreen);
+    text-shadow: var(--greenGlow);
+}
+
+    a:hover {
+       color: var(--dullGreen);
+    }
+
+img {
+    max-width: 900px;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+#linkos {
+    display: flex;
+    justify-content: center;
+}
+
+    #linkos > * {
+        padding: 0px 10px;
+    }
+
+#titlelink {
+    font-size: 36pt;
+    text-decoration: none;
+    color: var(--brightGreen    );
+    text-shadow: var(--greenGlow);
+}
+
+    #titlelink:hover {
+        color: var(--dullGreen);
+    }
+#warning {
+    font-size: 36pt;
+    font-weight: normal;
+    color: var(--brightGreen));
+}
